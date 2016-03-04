@@ -37,11 +37,15 @@
 
         </LinearLayout>
 
-        <AnalogClock
-            android:layout_width="243dp"
-            android:layout_height="236dp"
-            android:id="@+id/analogClock"
-            android:layout_gravity="center" />
+        <TextClock
+            android:layout_width="672dp"
+            android:layout_height="127dp"
+            android:id="@+id/textClock2"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#fff"
+            android:textSize="100dp"
+            android:textStyle="bold"
+            android:textAlignment="center" />
 
 
     </FrameLayout>
